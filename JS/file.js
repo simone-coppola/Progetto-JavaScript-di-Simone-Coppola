@@ -19,7 +19,7 @@ incrementButton.textContent = '+';
 incrementButton.classList.add('incrementButton');
 container.appendChild(incrementButton);
 
-let counter = 1;
+let counter = 0;
 
 decrementButton.addEventListener('click', () => {
     counter--;
