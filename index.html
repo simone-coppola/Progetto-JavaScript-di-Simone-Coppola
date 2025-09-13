@@ -14,48 +14,7 @@
 
 
 
-    <script>
-        const body = document.querySelector('body');
-        body.setAttribute('style', 'display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;');
-        
-        const container = document.querySelector('.container');
-        container.setAttribute('style', 'background-color: #f4f4f4; padding: 30px 60px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;');
-
-        const title = document.createElement('h1');
-        title.textContent = 'Counter';
-        container.appendChild(title);
-
-        const valueCounter = document.createElement('div');
-        valueCounter.textContent = '0';
-        valueCounter.setAttribute('style', 'font-size: 30px; margin: 10px 0 30px 0;');
-        container.appendChild(valueCounter);
-
-        const decrementButton = document.createElement('button');
-        decrementButton.textContent = '-';  
-        decrementButton.setAttribute('style', 'margin-right: 10px; background-color: red; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;');
-        container.appendChild(decrementButton);
-
-        const incrementButton = document.createElement('button');
-        incrementButton.textContent = '+';
-        incrementButton.setAttribute('style', 'margin-left:10px; background-color: green; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;');
-        container.appendChild(incrementButton);
-
-        let counter = 1;
-
-        decrementButton.addEventListener('click', () => {
-            counter--;
-            valueCounter.textContent = counter;
-        });
-
-        incrementButton.addEventListener('click', () => {
-            counter++;
-            valueCounter.textContent = counter;
-        });
-
-
-       
-
-    </script>
+    <script src="file.js"></script>
 
 </body>
 
